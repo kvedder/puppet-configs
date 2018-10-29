@@ -1,0 +1,10 @@
+
+    <VirtualHost *:80>
+        ServerAdmin	<%= @adminemail %>
+        DocumentRoot /var/www/html/
+        ErrorLog /var/log/apache/error.log
+        CustomLog /var/log/apache/access.log
+        <Directory /var/www/html/>
+            Require all granted
+        </Directory>
+    </VirtualHost>

@@ -1,0 +1,5 @@
+puppetfile
+
+mod 'puppetlabs-firewall', '1.14.0'
+mod 'puppetlabs-apache', :latest
+mod 'puppet-php', '6.0.2'
